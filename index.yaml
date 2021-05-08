@@ -12,6 +12,6 @@ entries:
     name: keycloak-operator
     type: application
     urls:
-    - https://mgutsche.github.io/keycloak-operator-chart/keycloak-operator-0.1.0.tgz
+    - https://martingutsche.github.io/keycloak-operator-chart/keycloak-operator-0.1.0.tgz
     version: 0.1.0
 generated: "2021-05-08T21:53:45.636089455+02:00"
