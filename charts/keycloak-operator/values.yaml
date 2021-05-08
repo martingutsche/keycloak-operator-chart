@@ -1,0 +1,6 @@
+# Default values for keycloak-operator.
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+
+# By default, the chart creates resources in the release namespace. This may not be desirable when using this chart as a dependency.
+# namespace: keycloak

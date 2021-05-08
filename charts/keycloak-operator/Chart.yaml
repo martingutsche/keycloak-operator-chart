@@ -1,0 +1,9 @@
+apiVersion: v2
+name: keycloak-operator
+description: An unofficial Helm chart for installing the keycloak operator 
+type: application
+maintainers:
+- name: mgutsche
+  email: mgutsche@pm.me
+version: 0.1.0
+appVersion: "12.0.1"
