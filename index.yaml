@@ -2,10 +2,23 @@ apiVersion: v1
 entries:
   keycloak-operator:
   - apiVersion: v2
-    appVersion: 12.0.1
-    created: "2021-05-08T22:02:59.941392762+02:00"
+    appVersion: 13.0.0
+    created: "2021-05-10T12:25:56.60104266+02:00"
     description: An unofficial Helm chart for installing the keycloak operator
-    digest: 14323ff9bec1a0d586208e10f8f446c574eb28afb5d0914642a164596b7ecbed
+    digest: 5258f44e10d8affbce81f768844184486cbe9fcc2e8e00d2e2cf850fa402d69e
+    maintainers:
+    - email: mgutsche@pm.me
+      name: mgutsche
+    name: keycloak-operator
+    type: application
+    urls:
+    - https://martingutsche.github.io/keycloak-operator-chart/keycloak-operator-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: 12.0.1
+    created: "2021-05-10T12:25:56.599649914+02:00"
+    description: An unofficial Helm chart for installing the keycloak operator
+    digest: 3677290c89d5654a073006240fc725518a4721aab8f6bf7677e0bb560288c330
     maintainers:
     - email: mgutsche@pm.me
       name: mgutsche
@@ -14,4 +27,4 @@ entries:
     urls:
     - https://martingutsche.github.io/keycloak-operator-chart/keycloak-operator-0.1.0.tgz
     version: 0.1.0
-generated: "2021-05-08T22:02:59.940176249+02:00"
+generated: "2021-05-10T12:25:56.598091546+02:00"
