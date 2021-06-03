@@ -5,5 +5,5 @@ type: application
 maintainers:
 - name: mgutsche
   email: mgutsche@pm.me
-version: 0.1.1
-appVersion: "13.0.0"
+version: 13.0.1
+appVersion: "13.0.1"
