@@ -84,7 +84,6 @@ func getKeycloakRealmCR(namespace string) *keycloakv1alpha1.KeycloakRealm {
 					"ssl":             "",
 				},
 				InternationalizationEnabled: &[]bool{true}[0],
-				UserManagedAccessAllowed:    &[]bool{true}[0],
 				SupportedLocales:            []string{"en", "de"},
 				DefaultLocale:               "en",
 				LoginTheme:                  "keycloak",
