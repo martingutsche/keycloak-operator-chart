@@ -184,10 +184,6 @@ type KeycloakAPIRealm struct {
 	// Access Token Lifespan
 	// +optional
 	AccessTokenLifespan *int32 `json:"accessTokenLifespan,omitempty"`
-
-	// User Managed Access Allowed
-	// +optional
-	UserManagedAccessAllowed *bool `json:"userManagedAccessAllowed,omitempty"`
 }
 
 type RoleRepresentationArray []RoleRepresentation
